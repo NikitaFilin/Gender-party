@@ -3,25 +3,27 @@ import { TextStyled } from "../Text/styled";
 import { device } from "../../utils";
 
 export const Title = styled(TextStyled)`
-  font-family: Rouge Script;
+  font-family: bold script;
   font-style: normal;
   font-weight: normal;
   text-align: center;
   z-index: 1;
-  color: #FFF;
+  color: black;
+
+  padding-top: 32px;
 
   @media ${device.mobileS} {
     font-size: 60px;
   }
-  
+
   @media ${device.tablet} {
     font-size: 150px;
   }
-  
+
   @media ${device.laptop} {
     font-size: 200px;
   }
-  
+
   @media ${device.laptopL} {
     font-size: 200px;
   }
@@ -33,6 +35,8 @@ export const Page1Wrapper = styled.div`
   height: 25%;
   justify-content: center;
   align-items: center;
+
+  padding-top: 40px;
 `;
 
 export const Page2Wrapper = styled.div`
@@ -40,11 +44,11 @@ export const Page2Wrapper = styled.div`
   flex: 1;
   height: 100%;
   align-items: center;
-  
+
   @media ${device.mobileS} {
     justify-content: end;
   }
-  
+
   @media ${device.tablet} {
     justify-content: center;
   }
@@ -100,7 +104,7 @@ export const MapStyled = styled.iframe`
     width: 250px;
     height: 250px;
   }
-  
+
   @media ${device.mobileM} {
     width: 320px;
     height: 400px;
@@ -116,4 +120,4 @@ export const Form = styled.form`
   max-width: 600px;
   margin: 0 auto;
   padding: 50px 0;
-`
+`;
