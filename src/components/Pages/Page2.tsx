@@ -7,21 +7,17 @@ export const Page2: React.FC = () => {
     <Page2Wrapper>
       <Page2Container>
         <Text fontSize="32px" fontWeight="bold" paddingBottom="18px">
-          ПРИГЛАШЕНИЕ
+          Вечеринка пройдет
         </Text>
         <Text fontSize="32px" paddingBottom="18px">
-          27 ноября 2021 года
-        </Text>
-        <Text fontSize="32px" paddingBottom="2px">
-          -13:30-
-        </Text>
-        <Text fontSize="20px" paddingBottom="18px">
-          начало церемонии
+          6 августа 2022 года
         </Text>
         <Text fontSize="32px" paddingBottom="2px">
           -16:00-
         </Text>
-        <Text fontSize="20px">сбор в ресторане</Text>
+        <Text fontSize="18px" paddingTop="32px">
+          Узнайте это первыми!
+        </Text>
       </Page2Container>
     </Page2Wrapper>
   );
