@@ -3,15 +3,18 @@ import { TextStyled } from "../Text/styled";
 import { device } from "../../utils";
 
 export const Title = styled(TextStyled)`
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: normal;
   text-align: center;
   z-index: 1;
-  color: black;
 
-  padding: 32px 16px 0px 16px;
+  background-image: linear-gradient(to right, #ffc4d6, #65b3ff);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  padding-top: 24px;
 
   @media ${device.mobileS} {
     font-size: 60px;
@@ -33,11 +36,9 @@ export const Title = styled(TextStyled)`
 export const Page1Wrapper = styled.div`
   display: flex;
   flex: 1;
-  height: 25%;
+  height: 40%;
   justify-content: center;
   align-items: center;
-
-  padding-top: 40px;
 `;
 
 export const Page2Wrapper = styled.div`
