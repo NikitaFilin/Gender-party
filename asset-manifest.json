@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gender-party/static/css/main.9dc0bbaa.chunk.css",
-    "main.js": "/gender-party/static/js/main.4160bc15.chunk.js",
-    "main.js.map": "/gender-party/static/js/main.4160bc15.chunk.js.map",
+    "main.js": "/gender-party/static/js/main.710f5309.chunk.js",
+    "main.js.map": "/gender-party/static/js/main.710f5309.chunk.js.map",
     "runtime-main.js": "/gender-party/static/js/runtime-main.bf73a007.js",
     "runtime-main.js.map": "/gender-party/static/js/runtime-main.bf73a007.js.map",
     "static/js/2.e89f4fa5.chunk.js": "/gender-party/static/js/2.e89f4fa5.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.bf73a007.js",
     "static/js/2.e89f4fa5.chunk.js",
     "static/css/main.9dc0bbaa.chunk.css",
-    "static/js/main.4160bc15.chunk.js"
+    "static/js/main.710f5309.chunk.js"
   ]
 }
