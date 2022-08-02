@@ -9,9 +9,11 @@ export const Title = styled(TextStyled)`
   font-weight: normal;
   text-align: center;
   z-index: 1;
-  color: black;
 
-  padding: 32px 16px 0px 16px;
+  background-image: linear-gradient(to right, #ffc4d6, #65b3ff);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 
   @media ${device.mobileS} {
     font-size: 60px;
@@ -33,11 +35,9 @@ export const Title = styled(TextStyled)`
 export const Page1Wrapper = styled.div`
   display: flex;
   flex: 1;
-  height: 25%;
+  height: 40%;
   justify-content: center;
   align-items: center;
-
-  padding-top: 40px;
 `;
 
 export const Page2Wrapper = styled.div`
