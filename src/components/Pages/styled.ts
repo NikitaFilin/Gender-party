@@ -3,8 +3,7 @@ import { TextStyled } from "../Text/styled";
 import { device } from "../../utils";
 
 export const Title = styled(TextStyled)`
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: normal;
   text-align: center;
@@ -14,6 +13,8 @@ export const Title = styled(TextStyled)`
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
+
+  padding-top: 24px;
 
   @media ${device.mobileS} {
     font-size: 60px;
