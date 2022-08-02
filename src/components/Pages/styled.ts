@@ -17,7 +17,7 @@ export const Title = styled(TextStyled)`
   padding-top: 24px;
 
   @media ${device.mobileS} {
-    font-size: 60px;
+    font-size: 55px;
   }
 
   @media ${device.tablet} {
