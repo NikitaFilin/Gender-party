@@ -3,14 +3,15 @@ import { TextStyled } from "../Text/styled";
 import { device } from "../../utils";
 
 export const Title = styled(TextStyled)`
-  font-family: bold script;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
   font-weight: normal;
   text-align: center;
   z-index: 1;
   color: black;
 
-  padding-top: 32px;
+  padding: 32px 16px 0px 16px;
 
   @media ${device.mobileS} {
     font-size: 60px;
