@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { TextStyled } from "../Text/styled";
 import { device } from "../../utils";
 
+// background-image: linear-gradient(to right, #ffc4d6, #65b3ff);
+
 export const Title = styled(TextStyled)`
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -9,8 +11,7 @@ export const Title = styled(TextStyled)`
   text-align: center;
   z-index: 1;
 
-  background-image: linear-gradient(to right, #ffc4d6, #65b3ff);
-  color: transparent;
+  color: orange;
   background-clip: text;
   -webkit-background-clip: text;
 
