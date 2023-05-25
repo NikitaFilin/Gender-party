@@ -2,9 +2,45 @@ import styled from "styled-components";
 import { TextStyled } from "../Text/styled";
 import { device } from "../../utils";
 
-// background-image: linear-gradient(to right, #ffc4d6, #65b3ff);
+// #2a3e1d
+// #b7cfb5
+// #d9e4d2
 
-export const Title = styled(TextStyled)`
+export const StartPageContainer = styled.div({
+  fontFamily: '"Rubik", sans-serif',
+  height: "100%",
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "center",
+  margin: "16px",
+  textAlign: "center",
+});
+
+export const Title = styled.div({
+  fontSize: "32px",
+  color: "#2a3e1d",
+});
+
+export const Subtitle = styled.div({
+  fontSize: "24px",
+  color: "#b7cfb5",
+  lineHeight: "24px",
+});
+
+export const GridContainer = styled.div({
+  display: "grid",
+  gridTemplateColumns: "repeat(3, 1fr)",
+  gridTemplateRows: "repeat(3, 1fr)",
+  gridColumnGap: "0px",
+  gridRowGap: "0px",
+  padding: "16px",
+  background: "lightblue",
+});
+
+export const GridItem = styled.div({});
+
+export const Title1 = styled(TextStyled)`
   font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -34,10 +70,11 @@ export const Title = styled(TextStyled)`
   }
 `;
 
+// export const
+
 export const Page1Wrapper = styled.div`
   display: flex;
-  flex: 1;
-  height: 40%;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 `;
@@ -103,20 +140,8 @@ export const Page2Container = styled.div`
 `;
 
 export const MapStyled = styled.iframe`
-  @media ${device.mobileS} {
-    width: 250px;
-    height: 250px;
-  }
-
-  @media ${device.mobileM} {
-    width: 320px;
-    height: 400px;
-  }
-
-  @media ${device.tablet} {
-    width: 560px;
-    height: 400px;
-  }
+  width: calc(100% - 8px);
+  height: 600px;
 `;
 
 export const Form = styled.form`

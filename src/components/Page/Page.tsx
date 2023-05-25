@@ -3,7 +3,7 @@ import { WrapperPage } from "./styled";
 import { Parallax } from "react-parallax";
 import { parseImgPath } from "./utils";
 
-const IMAGE_LAST_NAME = "image3";
+// const IMAGE_LAST_NAME = "image1";
 
 export const Page: React.FC<{
   page: { img?: string; content: JSX.Element };
@@ -15,11 +15,10 @@ export const Page: React.FC<{
       strength={200}
       bgImage={page.img}
       onLoad={(e: Event) => {
-        const img = e.target as HTMLImageElement;
-
-        if (parseImgPath(img) === IMAGE_LAST_NAME) {
-          setLoading(false);
-        }
+        // const img = e.target as HTMLImageElement;
+        // if (parseImgPath(img) === IMAGE_LAST_NAME) {
+        //   setLoading(false);
+        // }
       }}
     >
       <WrapperPage>{page.content}</WrapperPage>

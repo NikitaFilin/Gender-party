@@ -3,45 +3,27 @@ import { Page } from "./components/Page/Page";
 import { AppStyled } from "./styled";
 import { LoadPage } from "./components/LoadPage";
 
-import Image1 from "./images/image1.jpg";
-import Image2 from "./images/image2.jpg";
-import Image3 from "./images/image3.jpg";
-import Image4 from "./images/image4.jpg";
+import { StartPage, MapPage, InfoPage, TablesPage } from "./components/Pages";
 
-import { Page1, Page2, Page3, Page4 } from "./components/Pages";
+import StartPageImage from "./images/3.jpg";
+import MapPageImage from "./images/3.jpg";
+import InfoPageImage from "./images/3.jpg";
 
 const pages = [
-  {
-    img: Image1,
-    content: <Page1 />,
-  },
-  {
-    img: Image2,
-    content: <Page2 />,
-  },
-  {
-    img: Image3,
-    content: <Page3 />,
-  },
-  {
-    img: Image4,
-    content: <Page4 />,
-  },
+  { img: StartPageImage, content: <StartPage /> },
+  { img: InfoPageImage, content: <InfoPage /> },
+  { img: "", content: <TablesPage /> },
+  { img: MapPageImage, content: <MapPage /> },
 ];
 
 export const App = () => {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   return (
     <AppStyled>
       {loading && <LoadPage />}
       {pages.map((page, index) => (
-        <Page
-          setLoading={setLoading}
-          key={index}
-          index={index}
-          page={page}
-        ></Page>
+        <Page setLoading={setLoading} key={index} index={index} page={page} />
       ))}
     </AppStyled>
   );
