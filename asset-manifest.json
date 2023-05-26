@@ -1,17 +1,15 @@
 {
   "files": {
     "main.css": "/gender-party/static/css/main.754ebb54.css",
-    "main.js": "/gender-party/static/js/main.be9966ad.js",
-    "static/media/image2.jpg": "/gender-party/static/media/image2.5ca4c9ce3e2982090e93.jpg",
-    "static/media/image1.jpg": "/gender-party/static/media/image1.e14d4de0e317cb3a9c53.jpg",
-    "static/media/image3.jpg": "/gender-party/static/media/image3.cce05a9c94cedb00d2c7.jpg",
-    "static/media/image4.jpg": "/gender-party/static/media/image4.79b96536e406cb292a99.jpg",
+    "main.js": "/gender-party/static/js/main.4c1d45b2.js",
+    "static/media/2.jpg": "/gender-party/static/media/2.cc93e6099627e22ffca7.jpg",
+    "static/media/3.jpg": "/gender-party/static/media/3.6d2fbbf17790104d12ec.jpg",
     "index.html": "/gender-party/index.html",
     "main.754ebb54.css.map": "/gender-party/static/css/main.754ebb54.css.map",
-    "main.be9966ad.js.map": "/gender-party/static/js/main.be9966ad.js.map"
+    "main.4c1d45b2.js.map": "/gender-party/static/js/main.4c1d45b2.js.map"
   },
   "entrypoints": [
     "static/css/main.754ebb54.css",
-    "static/js/main.be9966ad.js"
+    "static/js/main.4c1d45b2.js"
   ]
 }
