@@ -1,6 +1,3 @@
-import React from "react";
-import { Subtitle, Title } from "./styled";
-
 export const FinalPage = () => {
   return (
     <div
@@ -15,18 +12,18 @@ export const FinalPage = () => {
     >
       <div
         style={{
-          fontSize: "40px",
+          fontSize: "52px",
           fontFamily: "'Marck Script', cursive",
-          color: "#2a3e1d",
+          color: "#42612E",
         }}
       >
         Ваши
       </div>
       <div
         style={{
-          fontSize: "48px",
+          fontSize: "52px",
           fontFamily: "'Marck Script', cursive",
-          color: "#2a3e1d",
+          color: "#42612E",
         }}
       >
         Даша и Женя

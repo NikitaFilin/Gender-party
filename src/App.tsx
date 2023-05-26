@@ -20,7 +20,7 @@ const pages = [
   { img: StartPageImage, content: <StartPage /> },
   { img: InfoPageImage, content: <InfoPage /> },
   { img: MapPageImage, content: <MapPage /> },
-  { img: "", content: <TablesPage /> },
+  // { img: "", content: <TablesPage /> },
   { img: FinalImage, content: <FinalPage /> },
 ];
 
