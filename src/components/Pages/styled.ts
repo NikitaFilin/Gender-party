@@ -20,12 +20,14 @@ export const StartPageContainer = styled.div({
 export const Title = styled.div({
   fontSize: "32px",
   color: "#2a3e1d",
+  fontFamily: "'Original Surfer', cursive",
 });
 
 export const Subtitle = styled.div({
   fontSize: "24px",
   color: "#b7cfb5",
-  lineHeight: "24px",
+  lineHeight: "32px",
+  fontFamily: "'Kaushan Script', cursive",
 });
 
 export const GridContainer = styled.div({
@@ -35,10 +37,13 @@ export const GridContainer = styled.div({
   gridColumnGap: "0px",
   gridRowGap: "0px",
   padding: "16px",
-  background: "lightblue",
+  background: "#b7cfb5",
 });
 
-export const GridItem = styled.div({});
+export const GridItem = styled.div({
+  fontFamily: "'Dancing Script', cursive",
+  color: "#2a3e1d",
+});
 
 export const Title1 = styled(TextStyled)`
   font-family: "Rubik", sans-serif;
