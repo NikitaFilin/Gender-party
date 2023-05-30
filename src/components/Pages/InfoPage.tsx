@@ -41,11 +41,12 @@ export const InfoPage = () => {
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
+              lineHeight: "32px",
             }}
           >
             <Subtitle>Загс</Subtitle>
             <Description>
-              11: 00, г. Долгопрудный, ул. Циолковского, д. 32/12
+              11: 30, г. Долгопрудный, ул. Циолковского, д. 32/12
             </Description>
           </div>
         ) : (
