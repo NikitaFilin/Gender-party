@@ -1,15 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Page } from "./components/Page/Page";
 import { AppStyled } from "./styled";
 import { LoadPage } from "./components/LoadPage";
 
-import {
-  StartPage,
-  MapPage,
-  InfoPage,
-  TablesPage,
-  FinalPage,
-} from "./components/Pages";
+import { StartPage, MapPage, InfoPage, FinalPage } from "./components/Pages";
 
 import StartPageImage from "./images/3.jpg";
 import MapPageImage from "./images/3.jpg";
@@ -20,7 +14,6 @@ const pages = [
   { img: StartPageImage, content: <StartPage /> },
   { img: InfoPageImage, content: <InfoPage /> },
   { img: MapPageImage, content: <MapPage /> },
-  // { img: "", content: <TablesPage /> },
   { img: FinalImage, content: <FinalPage /> },
 ];
 

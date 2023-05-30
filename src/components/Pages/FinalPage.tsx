@@ -1,3 +1,5 @@
+import { Title } from "./styled";
+
 export const FinalPage = () => {
   return (
     <div
@@ -10,24 +12,8 @@ export const FinalPage = () => {
         marginTop: "32px",
       }}
     >
-      <div
-        style={{
-          fontSize: "52px",
-          fontFamily: "'Marck Script', cursive",
-          color: "#42612E",
-        }}
-      >
-        Ваши
-      </div>
-      <div
-        style={{
-          fontSize: "52px",
-          fontFamily: "'Marck Script', cursive",
-          color: "#42612E",
-        }}
-      >
-        Даша и Женя
-      </div>
+      <Title>Ваши</Title>
+      <Title style={{ fontSize: "48px" }}>Даша и Женя</Title>
     </div>
   );
 };
