@@ -8,12 +8,12 @@ export const FinalPage = () => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        padding: "16px",
-        marginTop: "32px",
+        justifyContent: "flex-end",
+        paddingBottom: "64px",
       }}
     >
-      <Title>Ваши</Title>
-      <Title style={{ fontSize: "48px" }}>Даша и Женя</Title>
+      <Title>Ваша</Title>
+      <Title style={{ fontSize: "48px" }}>Катерина</Title>
     </div>
   );
 };

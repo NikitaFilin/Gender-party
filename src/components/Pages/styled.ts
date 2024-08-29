@@ -7,8 +7,9 @@ const fonts = {
 };
 
 const colors = {
-  primary: "#162F26",
-  secondary: "#5B9782",
+  primary: "#e7af3e",
+  secondary: "#42100d",
+  tertiary: "#f3dcb3",
 };
 
 export const PageContainer = styled.div({

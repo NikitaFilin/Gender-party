@@ -3,6 +3,8 @@ import { WrapperPage } from "./styled";
 import { Parallax } from "react-parallax";
 import { parseImgPath } from "./utils";
 
+import "./index.css";
+
 // const IMAGE_LAST_NAME = "image1";
 
 export const Page: React.FC<{
@@ -20,6 +22,7 @@ export const Page: React.FC<{
         //   setLoading(false);
         // }
       }}
+      bgClassName={index !== 3 ? "image" : undefined}
     >
       <WrapperPage>{page.content}</WrapperPage>
     </Parallax>

@@ -7,13 +7,14 @@ export const MapPage: React.FC = () => {
     <PageContainer style={{ margin: "8px" }}>
       <div
         style={{
-          background: "#ffffffa8",
           padding: "8px",
+          borderRadius: "8px",
+          background: "#ffffffa8",
         }}
       >
         <GoogleMap />
         <div style={{ marginTop: "8px" }}>
-          <a href="https://yandex.ru/maps/-/CCUsiSvicA">Открыть в Я.Картах</a>
+          <a href="https://yandex.ru/maps/-/CDs4i8JN">Открыть в Я.Картах</a>
         </div>
       </div>
     </PageContainer>
