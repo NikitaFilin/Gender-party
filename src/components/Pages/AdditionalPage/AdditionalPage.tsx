@@ -4,7 +4,7 @@ import { PageContainer, Subtitle, Title } from "../styled";
 
 export const AdditionalPage = () => (
   <PageContainer>
-    <Title>Прошу подтвердить свое присутсвие</Title>
+    <Title>Прошу подтвердить свое присутствие</Title>
     <Subtitle style={{ marginTop: "32px" }}>
       Написав в WhatsApp - <a href="https://wa.me/79065548374">ссылка</a>
     </Subtitle>

@@ -23,7 +23,7 @@ export const Page: React.FC<{
           setLoading(false);
         }
       }}
-      bgClassName={index !== 3 ? "image" : undefined}
+      bgClassName={index !== 4 ? "image" : undefined}
     >
       <WrapperPage>{page.content}</WrapperPage>
     </Parallax>
