@@ -2,8 +2,9 @@ import styled from "styled-components";
 import { device } from "../../utils";
 
 const fonts = {
-  primary: "'Caveat', cursive",
-  secondary: "'Marck Script', cursive",
+  // fix
+  primary: "'Lobster', sans-serif",
+  secondary: "'Lobster', sans-serif",
 };
 
 const colors = {
@@ -28,6 +29,7 @@ export const Title = styled.div({
   fontWeight: 800,
   color: colors.primary,
   fontFamily: fonts.secondary,
+  margin: "32px 0",
 });
 
 export const Subtitle = styled.div({
@@ -42,11 +44,6 @@ export const Description = styled.div({
   color: colors.primary,
   fontFamily: fonts.primary,
 });
-
-export const MapStyled = styled.iframe`
-  width: calc(100% - 8px);
-  height: 600px;
-`;
 
 export const ActionsWrapper = styled.div({
   position: "absolute",

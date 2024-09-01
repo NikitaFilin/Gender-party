@@ -5,7 +5,7 @@ import { parseImgPath } from "./utils";
 
 import "./index.css";
 
-// const IMAGE_LAST_NAME = "image1";
+const IMAGE_LAST_NAME = "photo";
 
 export const Page: React.FC<{
   page: { img?: string; content: JSX.Element };
@@ -17,10 +17,11 @@ export const Page: React.FC<{
       strength={200}
       bgImage={page.img}
       onLoad={(e: Event) => {
-        // const img = e.target as HTMLImageElement;
-        // if (parseImgPath(img) === IMAGE_LAST_NAME) {
-        //   setLoading(false);
-        // }
+        const img = e.target as HTMLImageElement;
+        console.log("s", parseImgPath(img));
+        if (parseImgPath(img) === IMAGE_LAST_NAME) {
+          setLoading(false);
+        }
       }}
       bgClassName={index !== 3 ? "image" : undefined}
     >

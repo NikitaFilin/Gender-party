@@ -3,23 +3,27 @@ import { Page } from "./components/Page/Page";
 import { AppStyled } from "./styled";
 import { LoadPage } from "./components/LoadPage";
 
-import { StartPage, MapPage, InfoPage, FinalPage } from "./components/Pages";
+import {
+  StartPage,
+  MapPage,
+  InfoPage,
+  FinalPage,
+  AdditionalPage,
+} from "./components/Pages";
 
-import CakeImage from "./images/cake.jpg";
-import FinalImage from "./images/images3.jpg";
-import Birthday from "./images/1.jpeg";
-import Ballon from "./images/2.jpeg";
-import Ballon3 from "./images/photo2.jpg";
+import Image from "./images/background.jpeg";
+import Photo from "./images/photo.jpg";
 
 const pages = [
-  { img: Ballon, imgName: "1", content: <StartPage /> },
-  { img: Ballon, imgName: "2", content: <InfoPage /> },
-  { img: Ballon, imgName: "3", content: <MapPage /> },
-  { img: Ballon3, imgName: "4", content: <FinalPage /> },
+  { img: Image, content: <StartPage /> },
+  { img: Image, content: <InfoPage /> },
+  { img: Image, content: <MapPage /> },
+  { img: Image, content: <AdditionalPage /> },
+  { img: Photo, content: <FinalPage /> },
 ];
 
 export const App = () => {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   return (
     <AppStyled>
